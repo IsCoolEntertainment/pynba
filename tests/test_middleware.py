@@ -5,9 +5,7 @@ except ImportError:
 
 from wsgiref.simple_server import make_server
 
-# from nose.tools import nottest
 from wsgiref.util import setup_testing_defaults
-# setup_testing_defaults = nottest(setup_testing_defaults)
 
 from iscool_e.pynba.middleware import PynbaMiddleware
 from iscool_e.pynba.globals import pynba

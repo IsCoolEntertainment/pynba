@@ -1,5 +1,4 @@
-from setuptools import setup, find_packages, Extension, Command
-import sys
+from setuptools import setup, find_packages
 import os
 
 here = os.path.abspath(os.path.dirname(__file__))
@@ -52,6 +51,5 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=install_requires,
-    tests_require=['nose-exclude'],
-    ext_modules=extension_maker(),
+    tests_require=[],
 )
