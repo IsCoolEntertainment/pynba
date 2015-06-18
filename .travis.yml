@@ -8,14 +8,14 @@ python:
   - "pypy3"
 
 install:
-  - pip install pytest pytest-cov pytest-pep8 coveralls
+  - pip install pytest
   - python setup.py develop
 
 before_script:
   - export PATH=$PATH:$PWD
 
 script:
-  - py.test --pep8 iscool_e.pynba -v --cov iscool_e.pynba --cov-report term-missing tests
+  - py.test tests
 
 after_success:
   - coveralls
