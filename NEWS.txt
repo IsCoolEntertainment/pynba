@@ -92,6 +92,6 @@ News
 0.5.0
 -----
 
-*Release date: TBD*
+*Release date: 18-Jun-2015*
 
 * deprecated package ! use pynba instead

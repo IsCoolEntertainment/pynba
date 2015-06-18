@@ -1,7 +1,9 @@
 IsCool Entertainment Pynba
 ==========================
 
-This package is deprecated ! use pynba_ instead.
+.. warning::
+
+    This package is deprecated ! use pynba_ instead.
 
 Pynba is a WSGI Middleware for Pinba_. It allows realtime monitoring/statistics
 server using MySQL as a read-only interface. It works on Python 2.7, 3.3 and more.
