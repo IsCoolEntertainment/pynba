@@ -7,6 +7,6 @@
     :license: MIT, see LICENSE for more details.
 """
 
-from pynba.core import dumps, cast
+from pynba.stacked import LOCAL_STACK
 
-__all__ = ['dumps', 'cast']
+__all__ = ['LOCAL_STACK']

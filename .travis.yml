@@ -1,0 +1,21 @@
+language: python
+
+python:
+  - "2.7"
+  - "3.3"
+  - "3.4"
+  - "pypy"
+  - "pypy3"
+
+install:
+  - pip install pytest pytest-cov pytest-pep8 coveralls
+  - python setup.py develop
+
+before_script:
+  - export PATH=$PATH:$PWD
+
+script:
+  - py.test --pep8 iscool_e.pynba -v --cov iscool_e.pynba --cov-report term-missing tests
+
+after_success:
+  - coveralls

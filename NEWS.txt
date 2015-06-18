@@ -87,3 +87,11 @@ News
 *Release date: 06-Nov-2014*
 
 * fix util.ScriptMonitor tags
+
+
+0.5.0
+-----
+
+*Release date: TBD*
+
+* deprecated package ! use pynba instead

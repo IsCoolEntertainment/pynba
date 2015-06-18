@@ -7,6 +7,6 @@
     :license: MIT, see LICENSE for more details.
 """
 
-from pynba.core import dumps, cast
+from pynba.core import DataCollector, Timer
 
-__all__ = ['dumps', 'cast']
+__all__ = ['DataCollector', 'Timer']
